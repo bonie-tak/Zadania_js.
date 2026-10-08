@@ -5,8 +5,8 @@
     <title>Szkielet zaliczeniowy JavaScript</title>
 
     <style>
-        fieldset {
-            width: 600px;
+        body {
+            margin: 0;
         }
 
         h2 {
@@ -14,48 +14,49 @@
             margin: 0;
         }
 
-        button {
-            margin-right: 5px;
+        .menu {
+            display: flex;
+            gap: 5px;
+        }
+
+        .menu button {
+            flex: 1;
         }
     </style>
 </head>
 
 <body>
 
-    <fieldset>
+    <h2>Szkielet zaliczeniowy JavaScript, wykonał: Kamil Wieniawa klasa 2W</h2>
 
-        <h2>Szkielet zaliczeniowy JavaScript Szymon Kubica 3F</h2>
-
-        <br>
-
-        <button onclick="zadanie1()">zadanie1-Kubica</button>
-        <button onclick="zadanie2()">zadanie2-Kubica</button>
-        <button onclick="zadanie3()">zadanie3-Kubica</button>
-        <button onclick="zadanie4()">zadanie4-Kubica</button>
-        <button onclick="zadanie5()">zadanie5-Kubica</button>
+    <div class="menu">
+        <button onclick="zadanie1()">zadanie1-Wieniawa</button>
+        <button onclick="zadanie2()">zadanie2-Wieniawa</button>
+        <button onclick="zadanie3()">zadanie3-Wieniawa</button>
+        <button onclick="zadanie4()">zadanie4-Wieniawa</button>
+        <button onclick="zadanie5()">zadanie5-Wieniawa</button>
         <button onclick="zamknij()">zamknij okno</button>
-
-    </fieldset>
+    </div>
 
     <script>
         function zadanie1() {
-          
+            // zadanie 1
         }
 
         function zadanie2() {
-        
+            // zadanie 2
         }
 
         function zadanie3() {
-   
+            // zadanie 3
         }
 
         function zadanie4() {
-        
+            // zadanie 4
         }
 
         function zadanie5() {
-            
+            // zadanie 5
         }
 
         function zamknij() {
